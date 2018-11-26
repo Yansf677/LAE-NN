@@ -11,15 +11,13 @@ for i = 1:class
     train_y = [train_y;y];
 end
 
-train_x = train_x';
-[train_x settings] = mapminmax(train_x,0,1);
-train_x = train_x';
-train_data = [train_x train_y];
+train_x = train_x'; [train_x settings] = mapminmax(train_x,0,1);
+train_x = train_x'; train_data = [train_x train_y];
 
 %% data for testing
 test_x = [];
 for i = 1:class
-test_x = [test_x;TE_960(1:960,:,index(i))];
+    test_x = [test_x;TE_960(1:960,:,index(i))];
 end
 test_x = test_x';
 test_x = mapminmax.apply(test_x,settings);
