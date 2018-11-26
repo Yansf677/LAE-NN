@@ -76,8 +76,8 @@ autoencoder_2 = Model(inputs = input_2, outputs = output_2)
 
 autoencoder_2.compile(loss = loss, optimizer = keras.optimizers.SGD(lr = 0.1))
 
-autoencoder_2.fit(train_x_shuffle, train_feature_center_shuffle, epochs=1000, batch_size = 30, shuffle = True, validation_split = 0.10,
-                  callbacks = [EarlyStopping(monitor='val_loss', patience = 10)])
+autoencoder_2.fit(train_x_shuffle, train_feature_center_shuffle, epochs=1000, batch_size = 30, shuffle = True, 
+                  validation_split = 0.10, callbacks = [EarlyStopping(monitor='val_loss', patience = 10)])
 
 # plot the 2D features of model 2 during training phase
 train_feature_2 = autoencoder_2.predict(train_x)
@@ -93,9 +93,9 @@ plt.show()
 
 # using knn algorithm to divide areas of different categories in a 2D plane
 # based on meshing the grids in a plane and decide the category of every grid
-y = 0*np.ones([480,])
-y = np.append(y,1*np.ones([480,]))
-y = np.append(y,2*np.ones([480,]))
+y = 0 * np.ones([480,])
+y = np.append(y, 1 * np.ones([480,]))
+y = np.append(y, 2 * np.ones([480,]))
 
 clf = KNeighborsClassifier(n_neighbors=10)
 clf.fit(train_feature_2,y)
