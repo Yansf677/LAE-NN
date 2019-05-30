@@ -2,7 +2,9 @@
 
 **Shifu Yan, Xuefeng Yan**
 
-[pdf]()
+East China University of Science and Technology
+
+This paper has been published by [ACS](https://pubs.acs.org/doi/10.1021/acs.iecr.9b01325)
 
 ### CONTENT
 
