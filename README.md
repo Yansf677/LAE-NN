@@ -6,6 +6,8 @@ East China University of Science and Technology
 
 ### CONTENT
 
-* **1.PY
-* **2.PY
+* TE_data.mat
+* data_divide.m
+* main.py
+
 ### HOW TO RUN
