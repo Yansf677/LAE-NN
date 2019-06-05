@@ -9,5 +9,3 @@ East China University of Science and Technology
 * TE_data.mat
 * data_divide.m
 * main.py
-
-### HOW TO RUN
