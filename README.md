@@ -2,10 +2,6 @@
 
 **Shifu Yan, Xuefeng Yan**
 
-*Ind. Eng. Chem. Res. 2019, 58 (23), pp: 9952-9958*
+*East China University of Science and Technology*
 
-### CONTENT
-
-* TE_data.mat
-* data_divide.m
-* main.py
+![avatar](/home/picture/1.png)
