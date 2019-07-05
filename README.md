@@ -2,7 +2,7 @@
 
 **Shifu Yan, Xuefeng Yan**
 
-East China University of Science and Technology
+*Ind. Eng. Chem. Res. 2019, 58 (23), pp: 9952-9958*
 
 ### CONTENT
 
