@@ -4,4 +4,4 @@
 
 *East China University of Science and Technology*
 
-![avatar](/cover.jpg)
+![avatar](/fig/cover.jpg)
